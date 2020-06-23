@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JScript练习</title>
+    <script>
+        prompt('请输入你的年龄');
+        alert('好好学习，天天向上 ');
+        console.log('程序员看到的！');
+        
+        function myFunction()
+    {
+        var x=document.getElementById("demo").value;
+        if(x==""||isNaN(x))
+        {
+            alert("不是数字");
+        }
+    }
+        	
+  
+        </script>
+    
+</head>
+<body>
+    <h1>我的第一段 JavaScript</h1>
+    <p>请输入数字。如果输入值不是数字，浏览器会弹出提示框。</p>
+    <input id="demo" type="text">
+    
+    <p>好好学习，天天向上</p>
+   
+    <button type="button" onclick="myFunction()">点击这里</button>
+       
+</body>
+</html>
